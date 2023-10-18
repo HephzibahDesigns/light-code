@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Menu from "./Menu";
 
 const Nav = () => {
   const [toggleBtn, setToggleBtn] = useState(true);
@@ -13,33 +14,8 @@ const Nav = () => {
           light<span className="text-color-secondary">Code.</span>
         </Link>
       </div>
-
       <ul className="hidden lg:flex justify-center items-center space-x-6">
-        <li className="hoverEffect">
-          <Link to="/">Home</Link>
-        </li>
-
-        <li className="hoverEffect">
-          <Link to="/features">Features</Link>
-        </li>
-
-        <li className="hoverEffect">
-          <Link to="/testimonials">Testimonials</Link>
-        </li>
-
-        <li className="hoverEffect">
-          <Link to="/pricing">Pricing</Link>
-        </li>
-
-        <li className="hoverEffect">
-          <Link to="/blog">Blog</Link>
-        </li>
-
-        <li className="hoverEffect">
-          <Link to="/contact">Contact</Link>
-        </li>
-
-        <button className="btn">Free Trial</button>
+        <Menu />
       </ul>
 
       {/* Mobile Menu*/}
@@ -63,31 +39,7 @@ const Nav = () => {
               className="flex flex-col space-y-10 py-10 items-center"
               onClick={() => setToggleBtn(!toggleBtn)}
             >
-              <li className="hoverEffect">
-                <Link to="/">Home</Link>
-              </li>
-
-              <li className="hoverEffect">
-                <Link to="/features">Features</Link>
-              </li>
-
-              <li className="hoverEffect">
-                <Link to="/testimonials">Testimonials</Link>
-              </li>
-
-              <li className="hoverEffect">
-                <Link to="/pricing">Pricing</Link>
-              </li>
-
-              <li className="hoverEffect">
-                <Link to="/blog">Blog</Link>
-              </li>
-
-              <li className="hoverEffect">
-                <Link to="/contact">Contact</Link>
-              </li>
-
-              <button className="btn">Free Trial</button>
+              <Menu />
             </ul>
           </div>
         )}
