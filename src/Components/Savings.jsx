@@ -12,7 +12,7 @@ const Savings = () => {
         />
       </div>
 
-      <div className="space-y-5 container">
+      <div className="space-y-6 container">
         <p className="font-medium text-lg text-color-secondary">Saving Money</p>
         <h1 className="text-4xl font-bold w-96">
           Best Financing App To Save Your Money

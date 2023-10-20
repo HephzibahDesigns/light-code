@@ -1,6 +1,6 @@
 import React from "react";
 import HeroIMG from "../img/hero4.png";
-import { Features, Savings } from "../Components/export2";
+import { Features, HowItWorks, Savings } from "../Components/export2";
 
 const Hero = () => {
   return (
@@ -28,6 +28,7 @@ const Hero = () => {
       </div>
       <Features />
       <Savings />
+      <HowItWorks />
     </div>
   );
 };
