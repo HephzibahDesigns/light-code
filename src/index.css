@@ -9,3 +9,7 @@
 .hoverEffect {
   @apply hover:text-color-secondary ease-in duration-200 cursor-pointer;
 }
+
+.active {
+  @apply border border-color-secondary w-24 h-24 rounded-full mx-5;
+}

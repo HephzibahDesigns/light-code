@@ -1,6 +1,7 @@
 import React from "react";
 import HeroIMG from "../img/hero4.png";
 import { Features, HowItWorks, Savings } from "../Components/export2";
+import UserReview from "./UserReview";
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
           <h1 className="text-4xl font-bold lg:text-left  md:text-center">
             Awesome App for your financial
           </h1>
-          <p className="w-[500px] text-xl lg:text-left   md:leading-normal text-center">
+          <p className="w-[500px] text-xl lg:text-left   md:text-center mx-auto w-[550px] leading-normal">
             This should be used to tell a story and let your users know a little
             more about app and it’s use, How can benefit them.
           </p>
@@ -29,6 +30,7 @@ const Hero = () => {
       <Features />
       <Savings />
       <HowItWorks />
+      <UserReview />
     </div>
   );
 };
