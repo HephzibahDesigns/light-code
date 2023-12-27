@@ -5,15 +5,15 @@ const HowItWorks = () => {
   return (
     <div className="bg-color-primary-light h-screen flex justify-center items-center">
       <div className="container mx-auto">
-        <div className="space-y-6 mx-auto flex justify-center items-center flex-col">
+        <div className="lg:space-y-6 mx-auto flex justify-center items-center flex-col">
           <h4 className="font-medium text-lg text-color-secondary">
             How it Works
           </h4>
-          <h1 className="font-bold text-3xl w-[450px] leading-8 text-center md:text-4xl">
+          <h1 className="font-bold lg:text-3xl w-[450px] lg:leading-8 text-center md:text-2xl">
             Grow Up Your Savings Money
           </h1>
         </div>
-        <div className="flex justify-center items-center pt-[5rem] space-x-24">
+        <div className="flex justify-center items-center flex-col lg:flex lg:justify-center lg:items-center lg:flex-nowrap lg:pt-[5rem] lg:space-x-24 lg:flex-row md:flex md:justify-center md:items-center md:pt[3rem] md:flex-col sm:flex sm:justify-center sm:items-center sm:flex-col">
           <WorkCard num="1" title="Install the App" />
           <WorkCard num="2" title="Setup your Profile" />
           <WorkCard

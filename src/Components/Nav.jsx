@@ -33,7 +33,7 @@ const Nav = () => {
               size={27}
               color="fff"
               onClick={() => setToggleBtn(!toggleBtn)}
-              className="mx-[50.4rem] my-[3rem]"
+              className="mx-[20rem] sm:mx-[37rem] md:mx-[43.4rem] my-[3rem]"
             />
             <ul
               className="flex flex-col space-y-10 py-10 items-center"

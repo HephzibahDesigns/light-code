@@ -3,7 +3,7 @@ import {
   Nav,
   Hero,
   Features,
-  Testimonials,
+  UserReview,
   Pricing,
   Blog,
   Contact,
@@ -18,7 +18,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/features" element={<Features />} />
-          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/testimonials" element={<UserReview />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
