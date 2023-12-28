@@ -43,7 +43,7 @@ const Contact = () => {
 
             <div className="flex justify-center items-center pt-10">
               <textarea
-                className="text-left text-black pr-[9rem] pb-20 py-2 px-2 rounded-lg lg:pr-[32rem] lg:pb-20 lg:text-left
+                className="text-left text-black pr-[9rem] pb-20 py-2 px-2 rounded-lg lg:pr-[32.4rem] lg:pb-20 lg:text-left
                 md:pr-[27rem] md:pb-20 sm:pr-[23rem] sm:pb-20
                 "
                 placeholder="Message"
