@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 
-const Switch = () => {
+const Switch = ({ isFlipped, setIsFlipped }) => {
   const [isSelected, setIsSelected] = useState(false);
 
   const toggle = () => {
     setIsSelected(!isSelected);
+    setIsFlipped(!isFlipped);
   };
   return (
     <div

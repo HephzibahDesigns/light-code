@@ -28,7 +28,7 @@ const Nav = () => {
             onClick={() => setToggleBtn(!toggleBtn)}
           />
         ) : (
-          <div className="bg-color-primary-light h-[100vh] absolute inset-0">
+          <div className="bg-color-primary-light h-[100vh] absolute inset-0 z-30">
             <IoMdClose
               size={27}
               color="fff"
