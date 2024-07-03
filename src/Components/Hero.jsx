@@ -11,7 +11,7 @@ const Hero = () => {
           <h1 className="text-xl w-82 font-bold sm:text-3xl sm:w-full lg:text-4xl lg:text-left md:text-center">
             Awesome App for your Financial Needs
           </h1>
-          <p className="text-base w-92 sm:mx-auto text-left sm:w-[550px] sm:text-center sm:text-lg lg:text-left md:text-center md:mx-auto  md:w-[550px] leading-normal">
+          <p className="text-base w-92 sm:mx-auto text-left sm:w-[550px] sm:text-center sm:text-lg lg:text-left  md:text-center md:mx-auto  md:w-[550px] leading-normal">
             This should be used to tell a story and let your users know a little
             more about app and it’s use how can benefit them.
           </p>

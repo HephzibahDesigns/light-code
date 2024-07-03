@@ -7,6 +7,7 @@ const Switch = ({ isFlipped, setIsFlipped }) => {
     setIsSelected(!isSelected);
     setIsFlipped(!isFlipped);
   };
+
   return (
     <div
       className={
